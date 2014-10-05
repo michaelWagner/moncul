@@ -1,0 +1,122 @@
+* {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  margin: 0;
+  color: #000000;
+  font-family: Consolas, "Andale Mono WT", monospace;
+}
+
+.site-container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.nav {
+  width: 50px;
+  height: 130px;
+  background-color: transparent;
+  float: right;
+  position: fixed;
+  /*top: 153px;*/
+  top: 35%;
+  right: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1 {
+  padding: 50px;
+  height: 20px;
+  width: 300px;
+}
+.button {
+  width: 25px;
+  height: 25px;
+  background-color: #999;
+  margin: 14px 0 13px -27px;
+  border-radius: 25px;
+  border: solid #333;
+}
+
+.top-button {
+  background: url("../img/caret.png") no-repeat center;
+  background-size: 50%;
+}
+.music-button {
+  background: url("../img/eighth-notes.png") no-repeat center;
+  background-size: 90%;
+}
+
+.video-button {
+  background: url("../img/video.png") no-repeat center;
+  background-size: 75%;
+}
+
+.button:hover {
+  background-color: #999;
+}
+
+.frame-1 {
+  height: 100%;
+  width: 100%;
+  min-height: 550px;
+}
+
+.mon-cul-logo {
+  height: 450px;
+  max-width: 1080px;
+  margin: 0 auto;
+  background: url("../img/MON_CUL_LOGO.jpg") no-repeat center;
+  background-size: 365px;
+}
+
+.uncontent {
+  font-weight: bold;
+  font-size: 1.1em;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.frame-2 {
+  height: 100%;
+  width: 100%;
+  min-height: 600px;
+  /*background-color: #E0C31D;*/
+  background: url("../img/yellow-splatter.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.mon-cul-music-player {
+  margin: 20px 0 0 50px;
+  /*width: 550px;*/
+  width: 50%;
+  height: 300px;
+}
+
+.music-quote {
+  width: 200px;
+  height: 80px;
+  float: right;
+  margin: 120px 150px 0 0;
+}
+
+.frame-3 {
+  height: 100%;
+  width: 100%;
+  min-height: 500px;
+  /*background-color: aqua;*/
+  background: url("../img/blue-water.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.mon-cul-video {
+  height: 390px;
+  width: 568px;
+  position: relative;
+  top: 30px;
+  left: 40px;
+}
